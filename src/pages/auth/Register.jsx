@@ -55,7 +55,7 @@ const Register = () => {
         <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-t-2xl px-8 py-6 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-8 translate-x-8"></div>
           <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full translate-y-6 -translate-x-6"></div>
-          <h1 className="text-white text-xl font-bold relative z-10">Keuangan UMKM</h1>
+          <h1 className="text-white text-xl font-bold relative z-10">Smartkas</h1>
           <p className="text-orange-100 text-sm mt-1 relative z-10">Kelola bisnis Anda dengan mudah</p>
         </div>
 
