@@ -176,11 +176,10 @@ const ProductTable = () => {
           <button
             key={cat}
             onClick={() => setActiveCategory(cat)}
-            className={`px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
-              activeCategory === cat
-                ? 'bg-orange-500 text-white shadow-sm'
-                : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
-            }`}
+            className={`px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${activeCategory === cat
+              ? 'bg-orange-500 text-white shadow-sm'
+              : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
+              }`}
           >
             {cat}
           </button>
