@@ -41,7 +41,7 @@ const Sidebar = ({ isOpen, onClose }) => {
           } lg:translate-x-0`}
       >
         {/* Header */}
-        <div className="flex items-center justify-between px-6 py-6">
+        <div className="flex items-center justify-between px-4 py-4 border-b border-white/25">
           <div>
             <h1 className="text-white text-xl font-bold tracking-tight">Smartkas</h1>
             <p className="text-orange-200 text-xs mt-0.5">Kelola bisnis Anda</p>
@@ -78,7 +78,7 @@ const Sidebar = ({ isOpen, onClose }) => {
         </nav>
 
         {/* Logout */}
-        <div className="px-4 pb-6">
+        <div className="px-4 py-4 border-t border-white/25">
           <button
             onClick={handleLogout}
             className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-white/90 hover:bg-white/15 hover:text-white transition-all duration-200 w-full"
