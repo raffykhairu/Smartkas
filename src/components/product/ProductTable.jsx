@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Pencil, Trash2, Search, Plus, Download } from 'lucide-react';
 import productService from '../../services/productService';
 
-const categories = ['Semua', 'Sembako', 'Protein', 'Minuman', 'Snack', 'Bumbu', 'Toiletries'];
+const categories = ['Semua', 'Sembako', 'Makanan', 'Minuman', 'Snack', 'Alat Tulis', 'Lainnya'];
 
 const ProductTable = () => {
   const [products, setProducts] = useState([]);

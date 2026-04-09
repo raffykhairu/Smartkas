@@ -1,8 +1,8 @@
 import { NavLink, useNavigate } from 'react-router-dom';
 import {
-  LayoutDashboard,
+  House,
   Package,
-  Warehouse,
+  ChartColumn,
   Wallet,
   ShoppingCart,
   LogOut,
@@ -11,9 +11,9 @@ import {
 import authService from '../../services/authService';
 
 const menuItems = [
-  { name: 'Dashboard', icon: LayoutDashboard, path: '/dashboard' },
+  { name: 'Dashboard', icon: House, path: '/dashboard' },
   { name: 'Produk', icon: Package, path: '/products' },
-  { name: 'Stok', icon: Warehouse, path: '/stock' },
+  { name: 'Stok', icon: ChartColumn, path: '/stock' },
   { name: 'Transaksi', icon: ShoppingCart, path: '/pos' },
   { name: 'Laporan', icon: Wallet, path: '/finance' },
 ];
