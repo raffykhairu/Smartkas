@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Lock, Eye, EyeOff, User as UserIcon } from 'lucide-react';
+import { Lock, Eye, EyeOff, User as UserIcon, Bubbles } from 'lucide-react';
 import authService from '../../services/authService';
 
 const Login = () => {
@@ -64,7 +64,7 @@ const Login = () => {
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
               <label className="text-sm font-semibold text-slate-700 mb-2 block">
-                Username
+                Email
               </label>
               <div className="relative">
                 <UserIcon
@@ -123,12 +123,12 @@ const Login = () => {
                 />
                 <span className="text-sm text-slate-600">Ingat saya</span>
               </label>
-              <button
-                type="button"
+              <Link
+                to="/forgot-password"
                 className="text-sm text-orange-500 hover:text-orange-600 font-medium transition-colors"
               >
                 Lupa password?
-              </button>
+              </Link>
             </div>
 
             <button

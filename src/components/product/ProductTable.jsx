@@ -17,9 +17,9 @@ const ProductTable = () => {
     name: '',
     description: '',
     category: 'Sembako',
-    buyPrice: 0,
-    sellPrice: 0,
-    stock: 0,
+    buyPrice: '',
+    sellPrice: '',
+    stock: '',
     minStock: 10,
     unit: 'Pcs',
   });
@@ -66,9 +66,9 @@ const ProductTable = () => {
       name: product.name || '',
       description: product.description || '',
       category: product.category || 'Sembako',
-      buyPrice: product.buyPrice || 0,
-      sellPrice: product.sellPrice || 0,
-      stock: product.stock || 0,
+      buyPrice: product.buyPrice || '',
+      sellPrice: product.sellPrice || '',
+      stock: product.stock || '',
       minStock: product.minStock || 10,
       unit: product.unit || 'Pcs',
     });
@@ -92,9 +92,9 @@ const ProductTable = () => {
       name: '',
       description: '',
       category: 'Sembako',
-      buyPrice: 0,
-      sellPrice: 0,
-      stock: 0,
+      buyPrice: '',
+      sellPrice: '',
+      stock: '',
       minStock: 10,
       unit: 'Pcs',
     });
@@ -427,6 +427,7 @@ const ProductTable = () => {
                     </span>
                     <input
                       type="number"
+                      placeholder='0'
                       value={formData.buyPrice}
                       onChange={(e) =>
                         setFormData({
@@ -449,6 +450,7 @@ const ProductTable = () => {
                     </span>
                     <input
                       type="number"
+                      placeholder='0'
                       value={formData.sellPrice}
                       onChange={(e) =>
                         setFormData({
@@ -470,6 +472,7 @@ const ProductTable = () => {
                   </label>
                   <input
                     type="number"
+                    placeholder='0'
                     value={formData.stock}
                     onChange={(e) =>
                       setFormData({
