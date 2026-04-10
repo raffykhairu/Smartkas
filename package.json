@@ -2,7 +2,7 @@
   "name": "smartkas",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://raffykhairu.github.io/smartkas",
+  "homepage": "https://raffykhairu.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
